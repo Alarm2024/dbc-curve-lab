@@ -1,0 +1,12 @@
+{
+  "name": "meme-fast",
+  "label": "Meme, fast",
+  "about": "Example design: small start, 13x to graduation, heavy opening fee that decays in two minutes. Not a recommendation.",
+  "quote": "SOL",
+  "quoteDecimals": 9,
+  "baseDecimals": 6,
+  "totalSupply": 1000000000,
+  "initialMarketCap": 30,
+  "migrationMarketCap": 400,
+  "fee": { "mode": "exponential", "startingFeeBps": 5000, "endingFeeBps": 100, "numberOfPeriod": 120, "totalDuration": 120 }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "rwa-steady",
+  "label": "RWA, steady",
+  "about": "Example design for a real-world-asset pair: 2x to graduation, low fee that settles over an hour. Not a recommendation.",
+  "quote": "USDC",
+  "quoteDecimals": 6,
+  "baseDecimals": 9,
+  "totalSupply": 1000000,
+  "initialMarketCap": 250000,
+  "migrationMarketCap": 500000,
+  "fee": { "mode": "linear", "startingFeeBps": 300, "endingFeeBps": 25, "numberOfPeriod": 60, "totalDuration": 3600 }
+}

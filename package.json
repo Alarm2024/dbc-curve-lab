@@ -1,0 +1,25 @@
+{
+  "name": "dbc-curve-lab",
+  "version": "0.1.0",
+  "description": "Read-only lab for Meteora Dynamic Bonding Curve launch configs: price path to graduation, buy ladder, fee schedule and sniper cost, computed with Meteora's own SDK math.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "lab": "node src/index.ts",
+    "record": "node src/record.ts",
+    "test": "node --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@meteora-ag/dynamic-bonding-curve-sdk": "1.5.13",
+    "bn.js": "^5.2.5"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.2.0",
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.2"
+  }
+}
