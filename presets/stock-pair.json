@@ -1,0 +1,12 @@
+{
+  "name": "stock-pair",
+  "label": "Stock pair, USDC",
+  "about": "Example design for an equity-style pair quoted in USDC: 5x to graduation, opening fee that steps down over ten minutes so the first block is not a race. Not a recommendation.",
+  "quote": "USDC",
+  "quoteDecimals": 6,
+  "baseDecimals": 9,
+  "totalSupply": 10000000,
+  "initialMarketCap": 100000,
+  "migrationMarketCap": 500000,
+  "fee": { "mode": "linear", "startingFeeBps": 1000, "endingFeeBps": 50, "numberOfPeriod": 60, "totalDuration": 600 }
+}
