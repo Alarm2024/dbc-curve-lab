@@ -83,3 +83,5 @@ Not modelled, and said on the report: a dynamic (volatility) fee on top of the b
 Built for the Meteora DBC side track of the Colosseum Crypto World's Fair.
 
 MIT — [LICENSE](LICENSE). Made by [elghaly](https://elghaly.dev).
+
+Docs and images: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), © elghaly. Third-party fonts, logos and screenshots of other services keep their own licenses.
